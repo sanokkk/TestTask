@@ -1,0 +1,15 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b5b09d17_002D118c_002D471b_002D8deb_002Dee6c11d92e8d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestController_GetById_ReturnOK" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::2DE32529-E4D2-4226-B79B-B12FF84458B1::net7.0::TestData.Tests.Controller.TestControllerTest.TestController_GetById_ReturnOK&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2DE32529-E4D2-4226-B79B-B12FF84458B1::net7.0::TestData.Tests.Repository.HumanRepoTest.HumanRepo_GetHumans_ReturnsHumans&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2DE32529-E4D2-4226-B79B-B12FF84458B1::net7.0::TestData.Tests.Repository.HumanRepoTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c997c9b5_002Dd3cd_002D4d69_002Db9ee_002D5341ab4a7bf2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetAllHumanTestAsync" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::2DE32529-E4D2-4226-B79B-B12FF84458B1::net7.0::TestData.Tests.UnitTest1.Test1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2DE32529-E4D2-4226-B79B-B12FF84458B1::net7.0::TestData.Tests.Controller.TestControllerTest.TestController_GetHumans_ReturnOK&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2DE32529-E4D2-4226-B79B-B12FF84458B1::net7.0::TestData.Tests.Controller.TestControllerTest.TestController_GetById_ReturnOK&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
