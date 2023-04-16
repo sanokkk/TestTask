@@ -418,3 +418,5 @@ C:\Users\san_okkk\RiderProjects\TestData\TestData\bin\Debug\net7.0\Microsoft.Ext
 C:\Users\san_okkk\RiderProjects\TestData\TestData\bin\Debug\net7.0\Microsoft.Extensions.Hosting.dll
 C:\Users\san_okkk\RiderProjects\TestData\TestData\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\san_okkk\RiderProjects\TestData\TestData\obj\Debug\net7.0\MvcTestingAppManifest.json
+C:\Users\san_okkk\RiderProjects\TestData\TestData\bin\Debug\net7.0\TestData.xml
+C:\Users\san_okkk\RiderProjects\TestData\TestData\obj\Debug\net7.0\TestData.xml

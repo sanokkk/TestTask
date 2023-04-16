@@ -18,6 +18,17 @@ public class TestController: ControllerBase
         _logger = logger;
     }
     
+
+    /// <summary>
+    /// Метод, возвращающий список жителей (без возраста);
+    /// Поддерживает фильтры по полу, возрасту;
+    /// С пагинацией
+    /// </summary>
+    /// <param name="sexFilter">Пол: 1 - мужской, 2 - женский</param>
+    /// <param name="ageBorderLeft">Левая граница возраста</param>
+    /// <param name="ageBorderRight">Правая граница возраста</param>
+    /// <param name="page">Номер страницы для пагинации: 0 по умолчанию</param>
+    /// <returns></returns>
     [HttpGet("{page}")]
     public  async Task<ActionResult> GetData(Sex sexFilter = Sex.NoOne, int? ageBorderLeft = null, int? ageBorderRight = null, int page = 0)
     {
@@ -28,6 +39,13 @@ public class TestController: ControllerBase
         return Ok(response.Skip(page * PAGE_SIZE).Take(PAGE_SIZE));
     }
 
+
+
+    /// <summary>
+    /// Метод, возвращающий жителя города Х по его id (содержит возраст)
+    /// </summary>
+    /// <param name="id">id жителя</param>
+    /// <returns></returns>
     [HttpGet]
     [Route("/GetById/{id}")]
     public async Task<ActionResult> GetById(string id)

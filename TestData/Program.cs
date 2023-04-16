@@ -32,7 +32,11 @@ builder.Services.AddScoped<IHumanService, HumanService>();
 
 
 
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(s =>
+{
+    var path = Path.Combine(System.AppContext.BaseDirectory, "TestData.xml");
+    s.IncludeXmlComments(path);
+});
 
 
 

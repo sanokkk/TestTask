@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestData</name>
+    </assembly>
+    <members>
+        <member name="M:TestData.Controllers.TestController.GetData(TestData.Domain.Sex,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Int32)">
+            <summary>
+            Метод, возвращающий список жителей
+            Поддерживает фильтры по полу, возрасту
+            С пагинацией
+            </summary>
+            <param name="sexFilter">Пол: 1 - мужской, 2 - женский</param>
+            <param name="ageBorderLeft">Левая граница возраста</param>
+            <param name="ageBorderRight">Правая граница возраста</param>
+            <param name="page">Номер страницы для пагинации: 0 по умолчанию</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
